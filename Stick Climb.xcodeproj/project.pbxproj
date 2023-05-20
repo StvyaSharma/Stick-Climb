@@ -16,6 +16,8 @@
 		5D6CACA72653EE65009A8F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CACA62653EE65009A8F8D /* Assets.xcassets */; };
 		5D6CACB22653EE65009A8F8D /* Stick_ClimbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CACB12653EE65009A8F8D /* Stick_ClimbTests.swift */; };
 		5D6CACBD2653EE65009A8F8D /* Stick_ClimbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CACBC2653EE65009A8F8D /* Stick_ClimbUITests.swift */; };
+		5D6CACCC2653EE88009A8F8D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CACCA2653EE88009A8F8D /* background.png */; };
+		5D6CACCD2653EE88009A8F8D /* stickman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CACCB2653EE88009A8F8D /* stickman.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5D6CACB82653EE65009A8F8D /* Stick ClimbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stick ClimbUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6CACBC2653EE65009A8F8D /* Stick_ClimbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stick_ClimbUITests.swift; sourceTree = "<group>"; };
 		5D6CACBE2653EE65009A8F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6CACCA2653EE88009A8F8D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5D6CACCB2653EE88009A8F8D /* stickman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = stickman.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				5D6CAC992653EE64009A8F8D /* AppDelegate.swift */,
 				5D6CAC9B2653EE64009A8F8D /* GameScene.sks */,
+				5D6CACCA2653EE88009A8F8D /* background.png */,
+				5D6CACCB2653EE88009A8F8D /* stickman.atlas */,
 				5D6CAC9D2653EE64009A8F8D /* Actions.sks */,
 				5D6CAC9F2653EE64009A8F8D /* GameScene.swift */,
 				5D6CACA12653EE64009A8F8D /* GameViewController.swift */,
@@ -235,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D6CACA52653EE64009A8F8D /* Main.storyboard in Resources */,
+				5D6CACCC2653EE88009A8F8D /* background.png in Resources */,
 				5D6CAC9C2653EE64009A8F8D /* GameScene.sks in Resources */,
+				5D6CACCD2653EE88009A8F8D /* stickman.atlas in Resources */,
 				5D6CACA72653EE65009A8F8D /* Assets.xcassets in Resources */,
 				5D6CAC9E2653EE64009A8F8D /* Actions.sks in Resources */,
 			);
